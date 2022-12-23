@@ -1,0 +1,14 @@
+[package]
+name = "prisioners"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+shuffle = "0.1.7"
+
+[[bin]]
+name = "prisioners"
+path = "main.rs"
